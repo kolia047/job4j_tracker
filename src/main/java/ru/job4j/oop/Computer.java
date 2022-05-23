@@ -9,17 +9,17 @@ public class Computer {
         this.multiMonitor = multiMonitor;
         this.ssd = ssd;
         this.cpu = cpu;
-
-    }
-    public Computer(){
-
     }
 
-public void printInfo() {
-    System.out.println("Много мониторов: " + multiMonitor);
-    System.out.println("SSD: " + ssd + " GB");
-    System.out.println("Модель CPU: " + cpu);
-}
+    public Computer() {
+    }
+
+    public void printInfo() {
+        System.out.println("Много мониторов: " + multiMonitor);
+        System.out.println("SSD: " + ssd + " GB");
+        System.out.println("Модель CPU: " + cpu);
+    }
+
     public static void main(String[] args) {
         Computer computer = new Computer(true, 256, "AMD Ryzen 5 3600");
         computer.printInfo();
@@ -27,8 +27,5 @@ public void printInfo() {
         pc1.printInfo();
         Computer pc2 = new Computer();
         pc2.printInfo();
-
-
     }
-
 }
