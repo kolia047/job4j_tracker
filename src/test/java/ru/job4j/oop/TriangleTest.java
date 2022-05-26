@@ -18,9 +18,9 @@ public class TriangleTest {
     }
 
     @Test
-    public void when00and50and04ThenMin1() {
+    public void when00and30and04ThenMin1() {
         Point a = new Point(0, 0);
-        Point b = new Point(5, 0);
+        Point b = new Point(3, 0);
         Point c = new Point(0, 0);
         Triangle triangle = new Triangle(a, b, c);
         double rsl = triangle.area();
