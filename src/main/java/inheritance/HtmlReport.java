@@ -1,6 +1,6 @@
 package inheritance;
 
-public class HtmlReport {
+public class HtmlReport extends TextReport {
 
     @Override
     public String generate(String name, String body) {
