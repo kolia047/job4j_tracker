@@ -1,6 +1,6 @@
 package ru.job4j;
 
-public class inheritance {
+public class Inheritance {
 
     public class Profession {
         private boolean degree;
